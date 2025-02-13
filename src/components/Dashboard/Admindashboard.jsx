@@ -1,8 +1,15 @@
+import AllTask from '../Other/AllTask';
+import Createtask from '../Other/Createtask';
+import Header from '../Other/Header';
 
-const Admindashboard = () => {
+const AdminDashboard = () => {
   return (
-    <div>Admindashboard</div>
+    <div className="h-screen w-full p-6 bg-gray-900 text-white">
+      <Header />
+      <Createtask /> 
+      <AllTask /> 
+    </div>
   )
 }
 
-export default Admindashboard
+export default AdminDashboard;
